@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+nav {
+  height: 70px;
+  width :100%;
+  background: rgb(216, 73, 73);
+  padding: 25px;
+  overflow: hidden;
+}
+nav ul {
+ list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin: 15px;
+}
+h1 {
+  display: inline-block;
+}
+.background-image {
+  background-image: url('../assets/images/fondo.jpg');
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-h1 {
+  font-size: 5rem;
+  margin-top: 2%
+}
+.border-div {
+  border-radius: 5px;
+  margin: 15px;
+  padding: 15px;
+  background: rgb(191, 237, 154);
+  text-align: justify;
+}
+footer {
+  background-color: rgb(99, 3, 27);
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+}
+@media (min-width: 768px) {
+  .view-mobile {
+    display: none;
+  }
+  .view-desktop {
+    display: block;
+  }
+  img {
+    max-width: inherit;
+  }
+}
+
+
+/*CLASES REUTILIZABLES*/
+.nav-left {
+  float: left;
+}
+.nav-right {
+  float: right;
+}
+.text-center {
+  text-align: center;
+}
+.opacity {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+}
+.color-white {
+  color: #fff;
+}
