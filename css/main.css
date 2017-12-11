@@ -57,9 +57,6 @@ footer {
   .view-desktop {
     display: block;
   }
-  img {
-    max-width: inherit;
-  }
 }
 
 
