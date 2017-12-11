@@ -43,12 +43,18 @@ h1 {
   padding: 15px;
   background: rgb(191, 237, 154);
   text-align: justify;
+  height: 250px;
 }
 footer {
   background-color: rgb(99, 3, 27);
   text-align: center;
   color: #fff;
   padding: 2rem;
+}
+img {
+  width: 40%;
+  height: 40%;
+  margin: 5% 30%;
 }
 @media (min-width: 768px) {
   .view-mobile {
