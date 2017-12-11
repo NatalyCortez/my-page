@@ -15,13 +15,14 @@ nav {
   padding: 25px;
   overflow: hidden;
 }
-nav ul {
- list-style: none;
+header ul {
+  display: none;
 }
-nav li {
-  display: inline-block;
-  margin: 15px;
+.i-menu {
+  font-size: 3rem;
+  color: #fff;
 }
+
 h1 {
   display: inline-block;
 }
@@ -34,7 +35,7 @@ h1 {
   background-repeat: no-repeat;
 }
 .image-h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   margin-top: 2%
 }
 .border-div {
@@ -52,11 +53,30 @@ footer {
   padding: 2rem;
 }
 img {
-  width: 40%;
-  height: 40%;
+  width: 30%;
+  height: 30%;
   margin: 5% 30%;
 }
 @media (min-width: 768px) {
+  .view-mobile {
+    display: inline-block;
+  }
+  .view-desktop {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  nav ul {
+   list-style: none;
+  }
+  nav li {
+    display: inline-block;
+    margin: 15px;
+  }
+  .image-h1 {
+    font-size: 5rem;
+    margin-top: 2%
+  }
   .view-mobile {
     display: none;
   }
